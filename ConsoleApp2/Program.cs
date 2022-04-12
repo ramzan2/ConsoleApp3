@@ -19,7 +19,19 @@ namespace ConsoleApp2
             a = 1 * 1;
             Console.WriteLine(a);
             //Принять с консоли 3 числа и перемножить их, результат вывести на консоль
-            Console.WriteLine()
+            Console.WriteLine("Введите переменные a, b, c");
+            int f = Convert.ToInt32(Console.ReadLine());
+            int g = Convert.ToInt32(Console.ReadLine());
+            int e = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(f * g * e);
+            Console.ReadKey();
+            // Принять с консоли 2 числа и найти большее из них
+            Console.WriteLine("Введите два числа");
+            int w = Convert.ToInt32(Console.ReadLine());
+            int d = Convert.ToInt32(Console.ReadLine());
+            if (a > b) ;
+
+
         }
     }
 }
