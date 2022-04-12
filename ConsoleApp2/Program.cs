@@ -8,7 +8,7 @@ namespace ConsoleApp2
         {
             //Создать целочисленную переменную и присвоить ей значение 1
             int a = 1;
-            
+
             //Создать вещественную переменную и присвоить ей любое значение
             double b = 2;
             //Создать не явно типизированную переменную и присвоить ей любое значение
@@ -25,13 +25,24 @@ namespace ConsoleApp2
             int e = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine(f * g * e);
             Console.ReadKey();
+
             // Принять с консоли 2 числа и найти большее из них
             Console.WriteLine("Введите два числа");
             int w = Convert.ToInt32(Console.ReadLine());
             int d = Convert.ToInt32(Console.ReadLine());
-            if (a > b) ;
+            if (w > d)
+            {
+                Console.WriteLine("{0} набиольшее число ", w);
+            }
+            else
+            {
+                Console.WriteLine("{0} наибольшее число ", d);
+            }
+            Console.ReadLine();
+        }
+                
 
 
         }
     }
-}
+
