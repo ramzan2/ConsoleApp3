@@ -46,8 +46,16 @@ namespace ConsoleApp2
 
             //Принять с консоли 2 числа если оба четные то сложить их иначе перемножить, ответ вывести на консоль  
             Console.WriteLine("Введите два числа");
-            int n = Convert.ToInt32(Console.ReadLine());
-            int m = Convert.ToInt32(Console.ReadLine());
+          double n = Convert.ToDouble(Console.ReadLine());
+           double m = Convert.ToDouble(Console.ReadLine());
+            if(n % 2 == 0&& m %2 == 0)
+            {
+                Console.WriteLine(n + m);
+            }
+            else
+            {
+                Console.WriteLine(n * m);
+            }
 
 
 
