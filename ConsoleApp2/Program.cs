@@ -56,7 +56,8 @@ namespace ConsoleApp2
             {
                 Console.WriteLine(n * m);
             }
-
+            //Создать массив на 5 элементов 
+            int[] array = new int[5]; 
 
 
 
